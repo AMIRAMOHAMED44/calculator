@@ -1,0 +1,113 @@
+.parent{
+    background-color: rgb(203, 195, 243);
+    padding: 20px 0px;
+    width: 350px;
+    position: relative;
+    top: 200px;
+    left: 550px;
+    border-radius: 20px;
+
+
+}
+.child{
+    display: grid;
+    grid-template-columns: repeat(4,17%);
+    grid-gap: 10px;
+    align-items: center;
+    justify-content: center;
+    
+    
+}
+button{
+    font-size: xx-large;
+    font-weight: bold;
+    height: 50px;
+    border: none;
+    border-radius: 15px;
+    box-shadow: 2px 2px rgb(236, 234, 248);
+    
+}
+button:active{
+    transform: translate(2px,2px);
+}
+form{
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: center;
+}
+input{
+    border-radius: 15px;
+    width: 73%;
+    height: 50px;
+    font-weight: bold;
+    font-size: xx-large;
+    border-top: 5px solid rgb(79, 49, 228);
+    border-bottom: none;
+    border-right: none;
+    border-left: none;
+    background-color: white;
+
+}
+.color{
+    background-color: rgb(187, 187, 188);
+}
+.colorequl{
+    background-color: rgb(79, 49, 228);
+    color: white;
+}
+
+
+
+@media (min-width:1024px){
+    .parent{
+        left: 37%;
+    }
+}
+@media (min-width:769px) and (max-width:1024px){
+    .parent{
+        left: 31%;
+    }
+}
+
+
+@media (min-width:481px) and (max-width:768px){
+    .parent{
+        padding: 20px 0px;
+        width: 300px;
+        position: relative;
+        top: 200px;
+        left: 29%;
+    
+    
+    }
+    
+    button{
+        font-size: x-large;
+        font-weight: bold;
+        height: 40px;
+        
+    }
+}
+
+@media  (max-width:480px){
+    .parent{
+        width: 220px;
+        position: relative;
+        top: 200px;
+        left: 24%;
+    
+    
+    }
+    
+    button{
+        font-size: large;
+        font-weight: bold;
+        height: 30px;
+        
+    }
+    input{
+        height: 35px;
+        font-size: large;
+    
+    }
+}

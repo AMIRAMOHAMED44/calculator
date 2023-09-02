@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+    <div class="parent">
+    <form action="">
+        <input type="text" placeholder=" 0"id ="inp">
+    </form>
+
+    <div class="child"> 
+        <button onclick="display(`(`)">(</button>
+        <button onclick="display(`)`)">)</button>
+        <button id="cl" class="colorequl">Cl</button>
+        <button  class="colorequl" onclick="delt()">del</button>
+        <button class="color" onclick=" display(7)">7</button>
+        <button class="color" onclick=" display(8)">8</button>
+        <button class="color" onclick=" display(9)">9</button>
+        <button onclick="display('/')">/</button>
+        <button class="color" onclick="display(4)">4</button>
+        <button class="color" onclick="display(5)">5</button>
+        <button class="color" onclick=" display(6)">6</button>
+        <button onclick="display('*')">*</button>
+        <button class="color" onclick=" display(1)">1</button>
+        <button class="color" onclick=" display(2)">2</button>
+        <button class="color" onclick=" display(3)">3</button>
+        <button onclick="display('-')">-</button>
+        <button class="color" onclick=" display(0)">0</button>
+        <button class="color" onclick=" display('.')">.</button>
+        <button class="colorequl" onclick="calc()">=</button>
+        <button class="plus"onclick=" display('+')">+</button>
+    </div>
+</div>
+<script src="main.js"></script>
+</body>
+
+</html>
